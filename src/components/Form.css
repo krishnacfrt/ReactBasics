@@ -1,0 +1,68 @@
+.form-container{
+    width:70%;
+    margin:50px auto;
+   
+
+}
+.header{
+    width:100%;
+    margin:20px 35%;
+    
+}
+.progress{
+    width:80%;
+    height:15px;
+    background-color: rgb(250, 246, 246);
+    margin:0 auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+.form-section{
+    display: None;
+
+}
+.form-section.active{
+    margin-bottom: 20px;
+    display: block;
+}
+.prev-button,
+.next-button,
+.submit-button
+{   width:80px;
+    height:35px;
+    padding:10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgb(64, 104, 238);
+    border-radius: 10px;
+    border: none;
+    margin:0 10%;
+    color:white;
+}
+.next-button, .submit-button{
+    float: right;
+    margin-right:10%;
+}
+.prev-button{
+    float:left;
+    width: 100px;
+}
+.form-input{
+    border: none;
+    width:40%;
+    margin-left:30%;
+    padding:10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border:1px solid rgb(235, 232, 232);
+    border-radius: 5px;
+}
+.label2{
+    width:80%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+}
+
